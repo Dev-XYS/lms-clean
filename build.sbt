@@ -34,3 +34,6 @@ scalacOptions += "-P:continuations:enable"
 
 // tests are not thread safe
 parallelExecution in Test := false
+
+// ignore the old backend
+excludeFilter in unmanagedSources := "backend.scala"

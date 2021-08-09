@@ -32,3 +32,9 @@ project/plugins/project/
 # python specific
 **/__pycache__
 
+# Do not commit these
+/.metals/
+/.vscode/
+/headers/
+/project/
+/.scalafmt.conf
