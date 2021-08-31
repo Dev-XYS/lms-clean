@@ -73,4 +73,6 @@ object utils {
       System.setErr(oldStdErr)
     }
   }
+
+  def pr(x: Any) = println(x)
 }
